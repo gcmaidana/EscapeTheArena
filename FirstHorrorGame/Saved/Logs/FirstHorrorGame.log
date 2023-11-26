@@ -1395,3 +1395,65 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2023.11.26-05.47.47:041][850]LogViewport: Scene viewport resized to 1518x787, mode Windowed.
 [2023.11.26-05.47.47:117][851]LogViewport: Scene viewport resized to 1149x557, mode Windowed.
 [2023.11.26-05.47.47:157][852]LogViewport: Scene viewport resized to 1096x522, mode Windowed.
+[2023.11.26-05.48.46:711][207]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.11.26-05.48.46:724][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.26-05.48.46:724][207]PIE: New page: PIE session: Demonstration (Nov 25, 2023, 5:48:46 PM)
+[2023.11.26-05.48.46:724][207]LogPlayLevel: Creating play world package: /Game/Arena/Maps/UEDPIE_0_Demonstration
+[2023.11.26-05.48.46:927][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.202394s)
+[2023.11.26-05.48.46:927][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Arena/Maps/Demonstration.Demonstration to /Game/Arena/Maps/UEDPIE_0_Demonstration.Demonstration (0.202441s)
+[2023.11.26-05.48.46:934][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.11.26-05.48.46:937][207]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.26-05.48.46:937][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.26-05.48.46:938][207]LogAIModule: Creating AISystem for world Demonstration
+[2023.11.26-05.48.46:939][207]LogPlayLevel: PIE: World Init took: (0.002109s)
+[2023.11.26-05.48.46:939][207]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.11.26-05.48.46:939][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.11.26-05.48.46:939][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.26-05.48.46:940][207]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.26-05.48.46:940][207]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.26-05.48.46:940][207]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.26-05.48.46:942][207]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.26-05.48.47:012][207]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2023.11.26-05.48.47:013][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.26-05.48.47:013][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.26-05.48.47:013][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.26-05.48.47:014][207]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.11.26-05.48.47:014][207]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.11.26-05.48.47:017][207]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.11.26-05.48.47:017][207]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.11.26-05.48.47:017][207]LogInit: FAudioDevice initialized with ID 3.
+[2023.11.26-05.48.47:017][207]LogAudio: Display: Audio Device (ID: 3) registered with world 'Demonstration'.
+[2023.11.26-05.48.47:017][207]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.26-05.48.47:020][207]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2023.11.26-05.48.47:059][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_1|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:162][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_7|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:165][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_8|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:173][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_12|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:177][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_14|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:180][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_15|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:199][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_25|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:202][207]LogChaosCloth: Warning: Object 'SkeletalMeshActor_26|SkeletalMeshComponent0' has a non uniform scale, and has a cloth simulation attached. The collision volumes might no longer correctly match the shape of the mesh. Please update this component transform scale with the same value for all scale axis.
+[2023.11.26-05.48.47:210][207]LogWorld: Bringing World /Game/Arena/Maps/UEDPIE_0_Demonstration.Demonstration up for play (max tick rate 0) at 2023.11.25-23.48.47
+[2023.11.26-05.48.47:212][207]LogWorld: Bringing up level for play took: 0.191496
+[2023.11.26-05.48.47:216][207]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.11.26-05.48.47:223][207]PIE: Server logged in
+[2023.11.26-05.48.47:224][207]PIE: Play in editor total start time 0.5 seconds.
+[2023.11.26-05.48.47:283][207]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'HorrorAmbience'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2023.11.26-05.48.48:149][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.26-05.48.48:149][229]LogWorld: BeginTearingDown for /Game/Arena/Maps/UEDPIE_0_Demonstration
+[2023.11.26-05.48.48:152][229]LogWorld: UWorld::CleanupWorld for Demonstration, bSessionEnded=true, bCleanupResources=true
+[2023.11.26-05.48.48:175][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.26-05.48.48:181][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.26-05.48.48:185][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.26-05.48.48:194][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.26-05.48.48:206][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.11.26-05.48.48:207][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.26-05.48.48:209][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.11.26-05.48.48:240][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.11.26-05.48.48:300][230]LogPlayLevel: Display: Destroying online subsystem :Context_6
