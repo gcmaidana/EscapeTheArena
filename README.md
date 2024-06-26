@@ -4,6 +4,8 @@ Escape The Arena is a very simple horror game where you must find a weapon and d
 
 In order to defeat the enemy, you must find the weapon on the ground and interact with it to pick it up. Once you have a weapon, you can attack the enemy to defeat him and win the game. You can also interact with closets scattered around the map to hide from the enemy and evade him chasing you.
 
+This particular game was made entirely with blueprints in Unreal Engine 5.
+
 The controls for the game are the following:
  
 * W - Move Forward
